@@ -1,0 +1,55 @@
+@import "https://litespeedui.netlify.app/components/components.css";
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&family=Parisienne&display=swap");
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons|Material+Icons+Outlined");
+
+.App {
+  font-family: "Inter", sans-serif;
+}
+
+.nav-ctn {
+  width: 100%;
+  background-color: #2874f0;
+  color: #fff;
+}
+
+.nav-menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.right-nav {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+}
+
+.right-nav li {
+  padding-right: 15px;
+}
+
+.app-ctn {
+  max-width: 1200px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  margin: 10px auto;
+}
+
+.clear-filter {
+  font-size: 14px;
+  padding-left: 10px;
+}
+
+.products-ctn {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.cursor-pointer,
+label {
+  cursor: pointer;
+}
