@@ -1,10 +1,10 @@
 import {v4 as uuid} from "uuid";
-import {adidas1, adidas2, allen1, allen2, arrow1, arrow2} from "./images";
 
 const product = [
   {
     id: uuid(),
-    imgSrc: adidas1,
+    imgSrc:
+      "https://rukminim1.flixcart.com/image/660/792/ktizdzk0/sweatshirt/i/g/q/m-ha5641-adidas-original-imag6ux96efpm2k8.jpeg",
     title: "Full Sleeve Sweatshirt",
     oldPrice: 1500,
     newPrice: 999,
@@ -14,10 +14,12 @@ const product = [
     category: "men",
     brand: "adidas",
     size: "medium",
+    count: 1,
   },
   {
     id: uuid(),
-    imgSrc: adidas2,
+    imgSrc:
+      "https://rukminim1.flixcart.com/image/660/792/l5iid8w0/t-shirt/l/g/6/s-hd9379-adidas-original-imagg6d3bjt8hkg9.jpeg",
     title: "Women Round Neck",
     oldPrice: 1200,
     newPrice: 799,
@@ -27,10 +29,12 @@ const product = [
     category: "women",
     brand: "adidas",
     size: "small",
+    count: 1,
   },
   {
     id: uuid(),
-    imgSrc: allen1,
+    imgSrc:
+      "https://rukminim1.flixcart.com/image/660/792/l4vnbm80/t-shirt/c/e/q/m-askporgfp82490-new-allen-solly-original-imagfzk7h3zccp4k.jpeg",
     title: "Men White Polo",
     oldPrice: 899,
     newPrice: 699,
@@ -40,10 +44,12 @@ const product = [
     category: "men",
     brand: "allenSolly",
     size: "medium",
+    count: 1,
   },
   {
     id: uuid(),
-    imgSrc: allen2,
+    imgSrc:
+      "https://rukminim1.flixcart.com/image/660/792/kosxzm80/t-shirt/e/h/n/xl-ahkccrgpt85701-allen-solly-original-imag36hfu2ayy3m3.jpeg",
     title: "Solid Women Round Nec",
     oldPrice: 699,
     newPrice: 499,
@@ -53,10 +59,12 @@ const product = [
     category: "women",
     brand: "allenSolly",
     size: "small",
+    count: 0,
   },
   {
     id: uuid(),
-    imgSrc: arrow1,
+    imgSrc:
+      "https://rukminim1.flixcart.com/image/660/792/kfvfwy80-0/shirt/o/g/4/46-aszsh0559-arrow-original-imafw8hbffrgxc4f.jpeg",
     title: "Men Checks Shirt",
     oldPrice: 2000,
     newPrice: 1200,
@@ -66,10 +74,12 @@ const product = [
     category: "men",
     brand: "arrow",
     size: "large",
+    count: 0,
   },
   {
     id: uuid(),
-    imgSrc: arrow2,
+    imgSrc:
+      "https://rukminim1.flixcart.com/image/660/792/jkbguq80/shirt/j/n/h/s-awvsh6022blue-arrow-original-imaf7p55ydjjkeuq.jpeg",
     title: "Women Solid Shirt",
     oldPrice: 2000,
     newPrice: 1200,
@@ -79,6 +89,7 @@ const product = [
     category: "women",
     brand: "arrow",
     size: "large",
+    count: 0,
   },
 ];
 

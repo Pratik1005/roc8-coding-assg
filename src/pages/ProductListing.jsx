@@ -24,7 +24,7 @@ const ProductListing = () => {
   const finalProduct = sortProduct(productByGender, productState.sortBy);
 
   return (
-    <div className="App">
+    <>
       <NavMenu />
       <section className="app-ctn">
         <ProductFilter />
@@ -38,7 +38,7 @@ const ProductListing = () => {
           )}
         </div>
       </section>
-    </div>
+    </>
   );
 };
 

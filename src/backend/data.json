@@ -1,0 +1,80 @@
+[
+    {
+      "id": "1",
+      "imgSrc": "adidas1",
+      "title": "Full Sleeve Sweatshirt",
+      "oldPrice": "1500",
+      "newPrice": "999",
+      "discount": "39",
+      "rating": "4.5",
+      "isOutOfStock": false,
+      "category": "men",
+      "brand": "adidas",
+      "size": "medium"
+    },
+    {
+      "id": "2",
+      "imgSrc": "adidas2",
+      "title": "Women Round Neck",
+      "oldPrice": 1200,
+      "newPrice": 799,
+      "discount": 39,
+      "rating": 4.5,
+      "isOutOfStock": false,
+      "category": "women",
+      "brand": "adidas",
+      "size": "small"
+    },
+    {
+      "id": "3",
+      "imgSrc": "allen1",
+      "title": "Men White Polo",
+      "oldPrice": 899,
+      "newPrice": 699,
+      "discount": 39,
+      "rating": 4.5,
+      "isOutOfStock": false,
+      "category": "men",
+      "brand": "allenSolly",
+      "size": "medium"
+    },
+    {
+      "id": "4",
+      "imgSrc": "allen2",
+      "title": "Solid Women Round Nec",
+      "oldPrice": 699,
+      "newPrice": 499,
+      "discount": 39,
+      "rating": 4.5,
+      "isOutOfStock": false,
+      "category": "women",
+      "brand": "allenSolly",
+      "size": "small"
+    },
+    {
+      "id": "5",
+      "imgSrc": "arrow1",
+      "title": "Men Checks Shirt",
+      "oldPrice": 2000,
+      "newPrice": 1200,
+      "discount": 39,
+      "rating": 4.5,
+      "isOutOfStock": false,
+      "category": "men",
+      "brand": "arrow",
+      "size": "large"
+    },
+    {
+      "id": "6",
+      "imgSrc": "arrow2",
+      "title": "Women Solid Shirt",
+      "oldPrice": 2000,
+      "newPrice": 1200,
+      "discount": 39,
+      "rating": 4.5,
+      "isOutOfStock": false,
+      "category": "women",
+      "brand": "arrow",
+      "size": "large"
+    }
+  ]

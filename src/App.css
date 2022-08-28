@@ -4,6 +4,7 @@
 
 .App {
   font-family: "Inter", sans-serif;
+  width: 100%;
 }
 
 .nav-ctn {
@@ -27,8 +28,9 @@
   list-style-type: none;
 }
 
-.right-nav li {
+.right-nav a {
   padding-right: 15px;
+  color: #fff;
 }
 
 .app-ctn {
@@ -52,4 +54,39 @@
 .cursor-pointer,
 label {
   cursor: pointer;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.cart-ctn {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+}
+.cart-img {
+  width: 150px;
+  height: 200px;
+}
+
+.cart-product-ctn {
+  display: flex;
+  padding-bottom: 1.5rem;
+  gap: 1rem;
+}
+
+.price-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.wishlist-ctn {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
 }

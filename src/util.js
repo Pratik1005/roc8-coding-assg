@@ -74,10 +74,15 @@ const filterProductByGender = (products, genderState) => {
   return count === Object.keys(genderState).length ? products : filteredProduct;
 };
 
+const isProductInList = (id, list) => {
+  return list.some((item) => item.id === id);
+};
+
 export {
   sortProduct,
   filterProduct,
   filterProductByBrand,
   filterProductBySize,
   filterProductByGender,
+  isProductInList,
 };
